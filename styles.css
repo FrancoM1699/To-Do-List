@@ -1,0 +1,69 @@
+body {
+  text-align: center;
+  background-color: rgb(55, 78, 121);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+.input {
+  width: 450px;
+  height: 50px;
+  margin: 5px;
+  padding: 0px, 20px;
+  border: 0;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 18px;
+}
+
+.boton-agregar {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border: 0;
+  border-radius: 10px;
+  background-color: rgb(255, 6, 46);
+  color: white;
+}
+
+.boton-agregar:hover {
+  opacity: 0.9;
+}
+
+.item-input {
+  height: 50px;
+  width: 250px;
+  padding: 0px 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  background: none;
+  outline: none;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.boton-editar {
+  margin: 0px 5px;
+  border: none;
+  background: none;
+  color: #62d0ff;
+  font-size: 1.4rem;
+  font-family: Montserrat, sans-serif;
+}
+
+.boton-remover {
+  height: 50px;
+  width: 50px;
+  margin: 0px 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(255, 6, 46);
+  font-size: 20px;
+}
